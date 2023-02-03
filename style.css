@@ -1,0 +1,148 @@
+@import url('https://fonts.cdnfonts.com/css/harry-potter');
+*{
+    
+    background-color:#bebebe;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    
+    font-family: 'Harry Potter', sans-serif;;
+}
+body{
+    overflow: scroll;
+}
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+main{
+    
+    display: flex;
+    width: 55%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 180px;
+}
+
+.mensaje-a-encriptar {
+    height: 400px;
+    border: none;
+    color: #0e1a40;
+    margin-top: 30px;
+   
+    text-transform: lowercase;
+}
+::placeholder { color: #0e1a40; }
+  .text-area:focus {
+      outline: none;
+    }
+
+.mensaje-encriptado{
+    height: 600px;
+    background-color: #946b2d;
+    background-image: url("mapa2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-color: #000000;
+    border-radius: 30px;
+    color: #0A3871;
+    margin-left: 88px;
+    margin-top: 30px;
+    padding-left: 20px;
+    position: fixed;
+}
+.mensaje:focus {
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.botonEncriptar {
+    background-color: #222f5b;
+    border: 1px solid #0e1a40;
+    border-radius: 24px;
+    color: #bebebe;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    transition: 0.5s all;
+}
+.botonEncriptar:hover{
+    background-color: #ae0001;
+    border: 1px solid #740001;
+    color: #d3a625;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+
+}
+.botonDesencriptar {
+    background-color: #222f5b;
+    border: 1px solid #0e1a40;
+    border-radius: 24px;
+    color: #bebebe;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    transition: 0.5s all;
+}
+.botonDesencriptar:hover{
+    background-color: #2a623d;
+    border: 1px solid #1a472a;
+    color: #aaaaaa;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+
+}
+
+.botonCopiado {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 140px;
+    margin-top: 565px;
+    position: absolute;
+    width: 336px;
+    transition: 0.5s all;
+}
+.botonCopiado:hover{
+    background-color: #f0c75e;
+    border: 1px solid #ecb939;
+    color: #372e29;
+    cursor: pointer;
+    height: 67px;
+    width: 336px;
+
+}
+
+.informacion {
+    color: #495057;
+    font-size:18px;
+}
+footer{
+    margin-left: 180px;
+    display: flex;
+    width: 55%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    line-height: 1.5;
+    
+    margin-left: 180px;
+    font-family: 'Harry Potter', sans-serif;
+    position: fixed;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    
+}
+main::-webkit-scrollbar{
+    width: 5px;
+}

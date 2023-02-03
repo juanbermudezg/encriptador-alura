@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.cdnfonts.com/css/harry-potter" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador Alura</title>
+</head>
+<body>
+    <header>
+        <img src="Frame 6.png" class="logo">
+    </header>
+    <main>
+        <section class="contenedor">
+            <textarea cols="50" rows="10" class="mensaje-a-encriptar" required placeholder="Ingrese aqui el texto"></textarea>
+            <div class="informacion">
+                <h6 class=>
+                    Solo letras minusculas y sin acentos*
+                </h6>
+            </div>
+            <div class="botones">
+                <button class="botonEncriptar" onclick="encriptar()">
+                    Encriptar
+                </button>
+                <button class="botonDesencriptar" onclick="desencriptar()">
+                    Desencriptar
+                </button>
+            </div>
+        </section>
+        <section class="contenedor">
+            <textarea  id="textareaa" cols="20" rows="10" class="mensaje-encriptado"  ></textarea>
+            <div>
+                <button id="btn-copy" class="botonCopiado">
+                    Copiar mensaje
+                </button>
+            </div>
+        </section>
+        
+    </main>
+    <footer class="contenedor">
+        <div>
+            <h3>
+                Creado por Juan Andres Bermudez Gomez, estudiante de Ingenieria Aeronautica en la Escuela de Aviacion del Ejercito, aprendiz en la Tecnologia en Analisis y Desarrollo de Software en el Servicio Nacional de Aprendizaje y desarrollador Back-End en Alura LATAM
+            </h3>
+            
+        </div>
+        <div>
+            <a  HREF="https://github.com/juanbermudezg" target="_blank"> Mi perfil de GitHub </a>
+        </div>
+        <div>
+            <a  HREF="https://www.linkedin.com/in/juanbermudezgomez/" target="_blank"> Mi perfil de Linkedln </a>
+        </div>
+        
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
